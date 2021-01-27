@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
-import Clientes from "./components/views/Clientes";
-import Produtos from "./components/views/Produtos";
+import Clientes from "./components/views/Clientes/Clientes";
+import Produtos from "./components/views/Produtos/Produtos";
 
 const Rotas = () => {
   return (

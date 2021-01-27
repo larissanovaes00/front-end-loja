@@ -1,5 +1,4 @@
-
-import api from "../../services/api.js";
+import api from "../../../services/api.js";
 import React, { useEffect, useState } from "react";
 
 function Clientes() {
