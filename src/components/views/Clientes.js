@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 
 function Clientes() {
   const [clientes, setClientes] = useState([]);
+  
   async function getClientes() {
     await api.get("/clientes").then((response) => {
       setClientes(response.data);
