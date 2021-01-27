@@ -2,7 +2,7 @@ import "./App.css";
 import api from "./services/api.js";
 import React, { useEffect, useState } from "react";
 import { BrowserRouter} from "react-router-dom";
-import Clientes from "./components/views/Clientes";
+import Clientes from "./components/views/Clientes/Clientes";
 import Routes from "./routes";
 
 function App() {
